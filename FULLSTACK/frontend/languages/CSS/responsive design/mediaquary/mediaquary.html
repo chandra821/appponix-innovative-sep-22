@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .hideprop{
+            font-size: 50px;
+            background-color: red;
+            display: none;
+        }
+        @media  (max-width:300px){
+                #extrasmall{
+                    display: block;
+                    background-color: green;
+                }
+            }
+           
+            @media  (min-width:501px) and (max-width:900px){
+                #destop{
+                    display: block;
+                    background-color: blue;
+                    color: red;
+                }
+            }
+            @media  (min-width:901px){
+                #destop{
+                    display: block;
+                    background-color: rgb(43, 0, 255);
+                    color: rgb(0, 251, 255);
+                }
+            }
+    </style>
+    <div class="container">
+        <div class="hideprop" id="extrasmall">small mobiles from 0px to 300px</div>
+        <div class="hideprop" id="tabs">tabs from 300px to 500px</div>
+        <div class="hideprop" id="destop">destop from 500px to 900px</div>
+        <div class="hideprop" id="largescreen">large tv from 900px to any</div>
+    </div>
+    <a href="../index.html">RESPOSSIVE-MAIN</a>
+</body>
+</html>
