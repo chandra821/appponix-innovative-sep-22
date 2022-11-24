@@ -82,6 +82,9 @@ export const Home = () => {
             </Grid>
 
         </Container>
+        <section>
+            <img src="" />
+        </section>
 
 
 
