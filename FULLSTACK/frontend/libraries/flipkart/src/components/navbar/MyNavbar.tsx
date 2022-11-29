@@ -3,14 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 interface IMyNavbar{}
  export const MyNavbar:React.FC<IMyNavbar>=(props)=>{
   return (
     <Navbar bg="primary" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#"><AccountBalanceIcon/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,12 +19,15 @@ interface IMyNavbar{}
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link>FAQ'S
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/jewlry">Jewlry</Nav.Link>
+            <Nav.Link href="/contact" >Contact
+            </Nav.Link >
+            <Nav.Link href="/covid">
+              Covid
             </Nav.Link>
-            <Nav.Link href="#">
-              Link
+            <Nav.Link href="/login">
+              Login
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

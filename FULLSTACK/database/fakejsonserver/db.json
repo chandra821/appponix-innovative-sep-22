@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "chc",
+      "emailid": "efregr",
+      "id": 2
+    },
+    {
+      "name": "chc",
+      "emailid": "efregr",
+      "id": 3
+    },
+    {
+      "name": "chandra",
+      "emailid": "chandrabhushan2541@gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

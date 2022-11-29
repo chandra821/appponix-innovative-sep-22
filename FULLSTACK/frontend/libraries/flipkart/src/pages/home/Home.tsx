@@ -36,18 +36,6 @@ export const Home = () => {
 <MyH1 a={"hello"} bg={"blue"}/> */}
         <Container maxWidth="xl" >
 
-            <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="stretch"
-            >
-
-                <MyNavbar />
-
-
-
-            </Grid>
 
             <Grid
                 container

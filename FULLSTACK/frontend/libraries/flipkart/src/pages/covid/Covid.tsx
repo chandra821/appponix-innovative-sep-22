@@ -10,6 +10,6 @@ export const Covid = () => {
     })
    },[])
    return<>
-   <h1> </h1>
+   <h1>Chandra Bhushan</h1>
    </>
 }
