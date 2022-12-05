@@ -1,0 +1,39 @@
+
+<div class="container">
+    <div class="row">
+       <app-navbar></app-navbar> 
+    </div>
+    <br>
+    <div class="row">
+       <app-carousel></app-carousel>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col"><app-cards [img]="img1" [Title]="Title1"></app-cards></div>
+      <div class="col"><app-cards [img]="img2" [Title]="Title2"></app-cards></div>
+      <div class="col"><app-cards [img]="img3" [Title]="Title3"></app-cards></div>
+      <div class="col"><app-cards [img]="img4" [Title]="Title4"></app-cards></div>
+      </div>
+      <div class="row">
+        <div class="col"><app-cards [img]="img4" [Title]="Title5"></app-cards></div>
+        <div class="col"><app-cards [img]="img2" [Title]="Title6"></app-cards></div>
+        <div class="col"><app-cards [img]="img3" [Title]="Title7"></app-cards></div>
+        <div class="col"><app-cards [img]="img1" [Title]="Title8"></app-cards></div>
+        </div>
+        <div class="row">
+           <div class="col"><app-cards [img]="img1" [Title]="Title1"></app-cards></div>
+           <div class="col"><app-cards [img]="img2" [Title]="Title3"></app-cards></div>
+           <div class="col"><app-cards [img]="img3" [Title]="Title5"></app-cards></div>
+           <div class="col"><app-cards [img]="img4" [Title]="Title7"></app-cards></div>
+           </div>
+           <div class="row">
+            <div class="col"><app-iframe></app-iframe></div>
+            <div class="col"><img height="300"  width="100%" src="../../../assets/images/1.jpeg" alt=""></div>
+           </div>
+           <div class="row">
+            <app-form ></app-form>
+           </div>
+           <div class="row">
+            <app-pagination></app-pagination>
+           </div>
+</div>
