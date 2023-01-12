@@ -17,6 +17,6 @@ interface  Iglass{
     frame:string,
     shape:string,
     color:string,
-    spec1?:number
+    // spec1?:number
 }
 console.log(glass)

@@ -1,3 +1,7 @@
 const homeRoute=require('./home/home.routes')
 const register=require('./auth/registeration/userReg.routes')
-module.exports={homeRoute,register}
+const userlogin=require('./auth/login/login.routes')
+const sellerUploadProduct=require('./seller/sellerUpload.routes')
+const getAllProducts=require('./seller/getallProducts.routes')
+
+module.exports={homeRoute,register,userlogin,sellerUploadProduct,getAllProducts}

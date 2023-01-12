@@ -1,10 +1,10 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import {Home,Contact} from './pages'
+import {Home,Contact,MyLogin} from './pages'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Jewlry } from './pages/jewlry/Jewlry';
 import { Covid } from './pages/covid/Covid';
-import { MyLogin } from './pages/login/Mylogin';
 import { Layout } from './pages/layout';
+import { Register } from './pages/auth/register/Register'
 export const App=()=>{
   return (<><Router>
      <Layout>
@@ -15,6 +15,7 @@ export const App=()=>{
       < Route path='/jewlry' element={<Jewlry/>}/>
       < Route path='/covid' element={<Covid/>}/>
       < Route path='/login' element={<MyLogin/>}/>
+      <Route path='/register' element={<Register/>}/>
     </Routes></Layout>
     </Router> 
     </>)

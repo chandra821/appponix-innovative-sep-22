@@ -16,6 +16,7 @@ import { Mycard } from "../../components/mycards/Mycards"
 //    },[])
 //    console.log(pro)
 //    return<>
+//    {pro.map((d:any)=>{return <><Mycard img={d.image} title={d.title} price={d.price}/></>})}
 //    </>
 // }
 
